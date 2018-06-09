@@ -1,64 +1,54 @@
-#header1-2 H1 {
-  color: #ffffff;
-}
-#header1-2 P {
-  color: #ffffff;
-}
-#slider-l H2 {
-  color: #000000;
-}
-#slider-l P {
-  color: #000000;
-}
-#content5-9 P {
-  text-align: right;
-  color: #000000;
-}
-#content5-9 .mbr-section-title {
-  text-align: right;
-  color: #000000;
-}
-#content5-c .mbr-section-title {
-  text-align: right;
-}
-#content5-c P {
-  text-align: right;
-}
-#content5-d .mbr-section-title {
-  text-align: center;
-}
-#content5-d P {
-  text-align: center;
-}
-#content5-f .mbr-section-title {
-  text-align: right;
-}
-#content5-f P {
-  text-align: right;
-}
-#header1-g H1 {
-  color: #ffffff;
-}
-#footer1-h P {
-  text-align: left;
-}
-#dropdown-menu-o .hide-buttons [data-button] {
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
+#dropdown-menu-0 .hide-buttons [data-button] {
   display: none !important;
 }
-#dropdown-menu-o .nav .link,
-#dropdown-menu-o .dropdown-item {
-  font-size: 1em;
-  color: #000000;
+#dropdown-menu-0 .navbar-brand a {
+  font-size: 24px;
+  font-family: 'Noto Sans', sans-serif;
 }
-#dropdown-menu-o .navbar,
-#dropdown-menu-o .dropdown-menu {
+#dropdown-menu-0 .nav .link,
+#dropdown-menu-0 .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+}
+#dropdown-menu-0 .navbar,
+#dropdown-menu-0 .dropdown-menu {
   background: #ffffff;
 }
-#dropdown-menu-o .dropdown-menu .dropdown-toggle[aria-expanded="true"],
-#dropdown-menu-o .dropdown-menu a:hover,
-#dropdown-menu-o .dropdown-menu a:focus {
+#dropdown-menu-0 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-0 .dropdown-menu a:hover,
+#dropdown-menu-0 .dropdown-menu a:focus {
   background: #f5f5f5;
 }
-#dropdown-menu-o .navbar-toggler {
-  color: #000000;
+#dropdown-menu-0 .navbar-toggler {
+  color: #ffffff;
+}
+#header1-6 H1 {
+  font-size: 36px;
+  color: #ffffff;
+}
+#content5-7 .mbr-section-title {
+  font-size: 36px;
+}
+#content5-b .mbr-section-title {
+  font-size: 36px;
+}
+#content5-c .mbr-section-title {
+  font-size: 36px;
+}
+#content5-d .mbr-section-title {
+  font-size: 36px;
+}
+#content5-e .mbr-section-title {
+  font-size: 36px;
+}
+#content5-f .mbr-section-title {
+  font-size: 36px;
+}
+#content5-g .mbr-section-title {
+  font-size: 36px;
+}
+#content5-h .mbr-section-title {
+  font-size: 36px;
 }

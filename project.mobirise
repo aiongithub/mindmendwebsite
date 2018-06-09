@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-05-21_1536",
+    "name": "MindMend",
     "currentPage": "index.html",
     "theme": {
       "name": "purity",
@@ -9,15 +9,16 @@
       "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
-    "versionFirst": "4.7.2",
-    "uniqCompNum": 25,
-    "versionPublish": "4.7.2"
+    "siteFonts": [],
+    "versionFirst": "4.7.7",
+    "uniqCompNum": 19,
+    "versionPublish": "4.7.7"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Hem",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -25,104 +26,95 @@
       },
       "components": [
         {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-size": "24px",
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#ffffff"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Hem</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-7\">Om oss</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-g\">Neuropsykiatri</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-h\">Primärvård</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/4.logosymbol-blue-128x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MindMend</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-0"
+        },
+        {
           "_params": {
             "showTitle": true,
-            "showText": true,
+            "showText": false,
             "showButtons": false,
             "showArrow": true,
             "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/ramsey-2000x1334.jpg",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-1.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff8e0",
-            "bgVideoRadio": false,
+            "bgVideoRadio": true,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "https://www.youtube.com/embed/dk9uNWPP7EA?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://www.youtube.com/watch?v=dk9uNWPP7EA&list=PL7cdQfbJcOxP_Ii2ifE-8NXj_qP1Mzb7a&index=2",
+              "width": 1280,
+              "height": 720
             },
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#ffffff",
             "overlayOpacity": 0.5
           },
-          "title": "MindMend",
-          "text": "Internetförmedlad psykologisk behandling",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Download Now</a>   ",
+          "title": "Internetförmedlad psykologisk behandling",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">Download Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Learn More</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-2",
+          "_anchor": "header1-6",
           "_styles": {
             "H1": {
+              "font-size": "36px",
               "color": "#ffffff"
-            },
-            "P": {
-              "color": "#ffffff"
-            }
-          }
-        },
-        {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#ffffff",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-6264-2000x1333.jpg",
-                "active": true,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": true,
-                "title": "Vi är MindMend",
-                "contentAlign": "right",
-                "text": "Vi bakom MindMend är ett team av svenska forskare från Karolinska Institutet som tillsammans utvecklar en interaktiv onlineplattform för sjukvårdsaktörer som snabbt vill kunna erbjuda högkvalitativ evidensbaserad psykologisk behandling utifrån kognitiv beteendeterapi (KBT) i stor skala. Plattformen är användarvänlig, tillgänglig och flexibel för både användare och sjukvårdspersonal.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
-                "overlay": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-6245-2000x1333.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": true,
-                "title": "Vision",
-                "contentAlign": "left",
-                "text": "Vår ambition är att hjälpa sjukvårdsaktörer att kunna erbjuda den bästa vården för patienten på ett snabbt och effektivt sätt utan att tvingas kompromissa med kvaliteten. ",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
-                "overlay": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-6290-2000x1333.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": true,
-                "title": "Plattform för ehälsa",
-                "contentAlign": "center",
-                "text": "Vi utvecklar en plattform för ehälsa som är användarvänlig, tillgänglig och flexibel för både användare och sjukvårdspersonal. ",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
-                "overlay": true
-              }
-            ]
-          },
-          "articleLayout": false,
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_anchor": "slider-l",
-          "_styles": {
-            "H2": {
-              "color": "#000000"
-            },
-            "P": {
-              "color": "#000000"
             }
           }
         },
@@ -133,7 +125,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-1620x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -145,22 +137,17 @@
             "overlayColor": "#fff",
             "overlayOpacity": 0.7
           },
-          "title": "Tillgänglighet",
-          "caption": "<p>MindMends plattform gör det möjligt att omedelbart kunna erbjuda patienter evidensbaserad psykologisk behandling direkt efter diagnos utan att behöva stå på väntelista. Detta gör att patienterna slipper onödigt lidande med risk för försämring i symptom samtidigt som resurser frigörs för de patienter som är i behov av andra insatser.</p><p><br></p>",
+          "title": "Vi är MindMend",
+          "caption": "<p>Vi bakom MindMend är ett team av svenska forskare från Karolinska Institutet som tillsammans utvecklar en interaktiv onlineplattform för sjukvårdsaktörer som snabbt vill kunna erbjuda högkvalitativ evidensbaserad psykologisk behandling utifrån kognitiv beteendeterapi (KBT) i stor skala. Plattformen är användarvänlig, tillgänglig och flexibel för både användare och sjukvårdspersonal.</p>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "content5",
-          "_anchor": "content5-9",
+          "_anchor": "content5-7",
           "_styles": {
-            "P": {
-              "text-align": "right",
-              "color": "#000000"
-            },
             ".mbr-section-title": {
-              "text-align": "right",
-              "color": "#000000"
+              "font-size": "36px"
             }
           }
         },
@@ -171,7 +158,73 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1651x1080.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-720x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "Vision",
+          "caption": "<p>Vår ambition är att hjälpa sjukvårdsaktörer att kunna erbjuda den bästa vården för patienten på ett snabbt och effektivt sätt utan att tvingas kompromissa med kvaliteten.\r</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-b",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "Tillgänglighet",
+          "caption": "<p>MindMends plattform gör det möjligt att omedelbart kunna erbjuda patienter evidensbaserad psykologisk behandling direkt efter diagnos utan att behöva stå på väntelista. Detta gör att patienterna slipper onödigt lidande med risk för försämring i symptom samtidigt som resurser frigörs för de patienter som är i behov av andra insatser.\n</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-c",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-1620x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -190,7 +243,12 @@
             "Theme"
           ],
           "_name": "content5",
-          "_anchor": "content5-b"
+          "_anchor": "content5-d",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          }
         },
         {
           "_params": {
@@ -198,10 +256,10 @@
             "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -218,13 +276,10 @@
             "Theme"
           ],
           "_name": "content5",
-          "_anchor": "content5-c",
+          "_anchor": "content5-e",
           "_styles": {
             ".mbr-section-title": {
-              "text-align": "right"
-            },
-            "P": {
-              "text-align": "right"
+              "font-size": "36px"
             }
           }
         },
@@ -235,7 +290,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-752x1080.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1618x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -248,19 +303,16 @@
             "overlayOpacity": 0.7
           },
           "title": "En e-hälsoplattform för neuropsykiatriska tillstånd",
-          "caption": "<p>MindMends forskningsteam har utvecklat behandlingar som möjliggör snabba, högkvalitativa och evidensbaserade insatser för personer med ADHD och relaterade tillstånd. Målsättningen är att fler patienter ska kunna erbjudas evidensbaserad behandling så snart diagnosen är satt.</p><p><span style=\"font-size: 1.25rem;\">MindMend erbjuder en digital storskalig plattform med utprövade behandlingsprogram baserade på KBT, vilket möjliggör att patienter kan erbjudas en högkvalitativ KBT-behandling omedelbart efter möte med läkare.</span></p>",
+          "caption": "<p>MindMends forskningsteam har utvecklat behandlingar som möjliggör snabba, högkvalitativa och evidensbaserade insatser för personer med ADHD och relaterade tillstånd. Målsättningen är att fler patienter ska kunna erbjudas evidensbaserad behandling så snart diagnosen är satt.\n</p><p>MindMend erbjuder en digital storskalig plattform med utprövade behandlingsprogram baserade på KBT, vilket möjliggör att patienter kan erbjudas en högkvalitativ KBT-behandling omedelbart efter möte med läkare.</p>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "content5",
-          "_anchor": "content5-d",
+          "_anchor": "content5-f",
           "_styles": {
             ".mbr-section-title": {
-              "text-align": "center"
-            },
-            "P": {
-              "text-align": "center"
+              "font-size": "36px"
             }
           }
         },
@@ -270,10 +322,10 @@
             "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mm-background-pattern-green-1267x698.png",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -290,7 +342,12 @@
             "Theme"
           ],
           "_name": "content5",
-          "_anchor": "content5-e"
+          "_anchor": "content5-g",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          }
         },
         {
           "_params": {
@@ -299,7 +356,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mm-background-pattern-1300x710.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-1620x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -312,54 +369,16 @@
             "overlayOpacity": 0.7
           },
           "title": "Primärvård",
-          "caption": "<p>Psykisk ohälsa drabbar var femte person och är en av de vanligaste anledningarna till att man söker sig till vården. MindMend erbjuder evidensbaserade behandlingar för bland annat depression, ångest, smärta och andra tillstånd av psykisk ohälsa som man vanligtvis söker hjälp för inom primärvården.</p><p><span style=\"font-size: 1.25rem;\">Plattformen är byggd för storskalig internetbehandling för vårdcentraler. Idag är många digitala vårdtjänster begränsade till videosamtal vilket är resurskrävande både avseende personal, kompetens och tillgänglighet.</span></p><p><span style=\"font-size: 1.25rem;\">Vår ambition är att hjälpa vårdgivare uppnå verksamhetens vision genom att kunna erbjuda högkvalitativa insatser genom hela patientens vårdprocess.&nbsp;</span></p>",
+          "caption": "<p>Psykisk ohälsa drabbar var femte person och är en av de vanligaste anledningarna till att man söker sig till vården. MindMend erbjuder evidensbaserade behandlingar för bland annat depression, ångest, smärta och andra tillstånd av psykisk ohälsa som man vanligtvis söker hjälp för inom primärvården.\n</p><p>Plattformen är byggd för storskalig internetbehandling för vårdcentraler. Idag är många digitala vårdtjänster begränsade till videosamtal vilket är resurskrävande både avseende personal, kompetens och tillgänglighet.\n</p><p>Vår ambition är att hjälpa vårdgivare uppnå verksamhetens vision genom att kunna erbjuda högkvalitativa insatser genom hela patientens vårdprocess.&nbsp;</p>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "content5",
-          "_anchor": "content5-f",
+          "_anchor": "content5-h",
           "_styles": {
             ".mbr-section-title": {
-              "text-align": "right"
-            },
-            "P": {
-              "text-align": "right"
-            }
-          }
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#fff8e0",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#ffffff",
-            "overlayOpacity": "0.4"
-          },
-          "title": "Kontakta oss för mer information",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Download Now</a> ",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_anchor": "header1-g",
-          "_styles": {
-            "H1": {
-              "color": "#ffffff"
+              "font-size": "36px"
             }
           }
         },
@@ -371,83 +390,27 @@
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#26272c",
+            "bgColor": "#37383e",
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "Tegeluddsvägen 80, 115 28 Stockholm",
+              "placeId": "ChIJN7t5a7WCX0YRVQVS2NNcF5Q",
+              "state": "ok",
+              "stateDetails": ""
+            }
           },
-          "text": "<a href=\"https://mobirise.com/\">info@mindmend.se</a>&nbsp;| Tegeluddsvägen 80<br>Copyright (c) 2018 MindMend. &nbsp;<a href=\"https://mobirise.com/\"><br></a>",
+          "text1": "<strong>Adress</strong><br>Tegeluddsvägen 80<br>115 28 Stockholm<br><br>\n<strong>Kontakt</strong><br>\nEpost: info@mindmend.se<br>",
+          "text2": "",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "footer1",
-          "_anchor": "footer1-h",
-          "_styles": {
-            "P": {
-              "text-align": "left"
-            }
-          }
-        },
-        {
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {},
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#000000"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#ffffff"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#f5f5f5"
-            },
-            ".navbar-toggler": {
-              "color": "#000000"
-            }
-          },
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "transparent": true,
-            "bgColor": "#ffffff",
-            "fontSize": 1,
-            "fontName": {},
-            "fontColor": "#000000"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Hem</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider-l\">Om oss</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-e\">Neuropsykiatri</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-f\">Primärvård</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Logga in</a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-777x128.png",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "#top",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "dropdown-menu",
-          "_anchor": "dropdown-menu-o"
+          "_name": "contacts2",
+          "_anchor": "contacts2-i"
         }
       ]
-    },
-    "page1.html": {
-      "settings": {
-        "title": "Page 1",
-        "order": 1
-      },
-      "components": []
     }
   }
 }
